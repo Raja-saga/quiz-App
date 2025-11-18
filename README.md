@@ -32,40 +32,6 @@ Spring Cloud Gateway: API Gateway (Reactive/Netty)
 
 Spring Cloud LoadBalancer: Client-side load balancing
 
-📂 Microservices Breakdown
-
-Service Name
-
-Port
-
-Description
-
-service-registry
-
-8761
-
-Eureka Server for service registration.
-
-api-gateway
-
-8765
-
-Central entry point. Routes requests to backend services.
-
-question-service
-
-8090*
-
-Manages questions. Connected to questiondb.
-
-quiz-service
-
-8091*
-
-Manages quiz logic and interfaces with questions.
-
-(Note: Backend ports like 8090/8091 may vary based on your local configuration, but the Gateway exposes them on 8765)
-
 ⚙️ Setup & Installation
 
 1. Prerequisites
